@@ -73,5 +73,6 @@ public class result{
         System.out.println("Grade: " + grade);
         System.out.println("------------------------------");
         System.out.println(Button);
+        System.out.println("------------------------------");
     }
 }
