@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "objects.Factorial",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "objects.factorial",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "factorial1",
+            "request": "launch",
+            "mainClass": "Methods.factorial1",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "Methods.factorial",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "recursion",
+            "request": "launch",
+            "mainClass": "Methods.recursion",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "method2",
+            "request": "launch",
+            "mainClass": "Methods.method2",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "method1",
+            "request": "launch",
+            "mainClass": "Methods.method1",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "A3Q1",
+            "request": "launch",
+            "mainClass": "Assignment3.A3Q1",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "strings",
+            "request": "launch",
+            "mainClass": "Array.strings",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "RandomNum",
+            "request": "launch",
+            "mainClass": "Loops.RandomNum",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "RPS",
+            "request": "launch",
+            "mainClass": "Loops.RPS",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "loop1",
+            "request": "launch",
+            "mainClass": "Loops.loop1",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
             "name": "StudentData$result",
             "request": "launch",
             "mainClass": "StudentData$result",

@@ -1,10 +1,7 @@
-// package com.company;
 import java.util.Scanner;
-
 public class Main{
     int inputNum;
     int computerNum;
-
     void userInput(){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number: ");
@@ -37,7 +34,7 @@ public class Main{
             System.out.println("You lose!");
         }
     }
-    public void Main(String[] args){
+    public void main(String[] args){
         userInput();
         computerInput();
         compare();

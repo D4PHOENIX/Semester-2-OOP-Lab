@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RandomNum",
+            "request": "launch",
+            "mainClass": "Loops.RandomNum",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "RPS",
+            "request": "launch",
+            "mainClass": "Loops.RPS",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "loop1",
+            "request": "launch",
+            "mainClass": "Loops.loop1",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "StudentData$result",
+            "request": "launch",
+            "mainClass": "StudentData$result",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "studentData$result",
+            "request": "launch",
+            "mainClass": "studentData$result",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "result",
+            "request": "launch",
+            "mainClass": "Assignment.result",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "object1",
+            "request": "launch",
+            "mainClass": "objects.object1",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "resultCard",
+            "request": "launch",
+            "mainClass": "Assignment.resultCard",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "Mainok",
+            "request": "launch",
+            "mainClass": "Mainok",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "result(1)",
+            "request": "launch",
+            "mainClass": "result",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "resultCard(1)",
+            "request": "launch",
+            "mainClass": "resultCard",
+            "projectName": "OOP Lab_8ce8d83f"
+        },
+        {
+            "type": "java",
+            "name": "weekdays",
+            "request": "launch",
+            "mainClass": "weekdays",
+            "projectName": "OOP Lab_8ce8d83f"
+        }
+    ]
+}

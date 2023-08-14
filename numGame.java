@@ -38,7 +38,7 @@ public class numGame{
             System.out.println("You lose!");
         }
     }
-    public static void Main(String[] args){
+    public void Main(String[] args){
         userInput();
         computerInput();
         compare();

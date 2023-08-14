@@ -26,26 +26,6 @@ class StudentData{
         this.ICTMarks = input.nextInt();
         // input.close();
     }
-// Printing the result
-    public void printResult(){
-        System.out.println("\n\n---------Result Card---------");
-        System.out.println("Name: " + this.userName);
-        System.out.println("Registration Number: " + this.regNo);
-        System.out.println("------------------------------");
-        System.out.println("Marks in Physics: " + this.phyMarks);
-        System.out.println("Marks in Mathematics: " + this.mathMarks);
-        System.out.println("Marks in English: " + this.engMarks);
-        System.out.println("Marks in PF: " + this.PFMarks);
-        System.out.println("Marks in ICT: " + this.ICTMarks);
-        System.out.println("------------------------------");
-        System.out.println("Total Marks: " + this.totalMarks);
-        System.out.println("Obtained Marks: " + this.obtainedMarks);
-        System.out.println("Percentage: " + this.percentage);
-        System.out.println("Grade: " + this.grade);
-        System.out.println("------------------------------");
-        System.out.println(this.Button);
-        System.out.println("------------------------------");
-    }    
     // Calculating percentage and grade
     public void calculations(){
         this.obtainedMarks = this.phyMarks + this.mathMarks + this.engMarks + this.PFMarks + this.ICTMarks;
@@ -66,19 +46,39 @@ class StudentData{
             this.grade = 'E';
         }
         else{
-            this.grade =  'F';  
+            this.grade =  'F';
         }
     }
     // Defining Coloured Button
-    public void button(){    
+    public void button(){
         switch(this.grade){
             case 'F':
                 this.Button = "\u001B[41m \u001B[30m You have failed the exam \u001B[0m";
                 break;
             default:
                 this.Button = "\u001B[42m \u001B[30m You have passed the exam \u001B[0m";
-                break;      
+                break;
         }
+// Printing the result
+    public void printResult(){
+        System.out.println("\n\n---------Result Card---------");
+        System.out.println("Name: " + this.userName);
+        System.out.println("Registration Number: " + this.regNo);
+        System.out.println("------------------------------");
+        System.out.println("Marks in Physics: " + this.phyMarks);
+        System.out.println("Marks in Mathematics: " + this.mathMarks);
+        System.out.println("Marks in English: " + this.engMarks);
+        System.out.println("Marks in PF: " + this.PFMarks);
+        System.out.println("Marks in ICT: " + this.ICTMarks);
+        System.out.println("------------------------------");
+        System.out.println("Total Marks: " + this.totalMarks);
+        System.out.println("Obtained Marks: " + this.obtainedMarks);
+        System.out.println("Percentage: " + this.percentage);
+        System.out.println("Grade: " + this.grade);
+        System.out.println("------------------------------");
+        System.out.println(this.Button);
+        System.out.println("------------------------------");
+    }    
 }
 public class result{
     public static void main(String[] args){

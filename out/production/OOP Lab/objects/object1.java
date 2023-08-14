@@ -1,5 +1,9 @@
 package objects;
 
+class Main{
+    
+}
+
 public class object1 {
     int start = 0;
     int end = 0;

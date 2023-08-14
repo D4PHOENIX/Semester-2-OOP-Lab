@@ -27,7 +27,6 @@ public class Mainok {
         int totalMarks = 500;
         int TotalObtainMarks = OOP + DLD + english + linear_algerbra + DBS;
         percentage = (TotalObtainMarks * 100 / totalMarks);
-       
 
         if (percentage <= 60) {
             grade = 'F';
